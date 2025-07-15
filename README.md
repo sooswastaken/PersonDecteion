@@ -101,14 +101,6 @@ Console output shows active track IDs and positions. Extend or redirect this eas
 * *Camera not opening* – Try another `--cam` index or check OS permissions.
 * *Few detections* – Increase ambient lighting, move the camera closer, or try a larger model (`yolov5s`).
 
----
-
-## License
-
-This project is released under the MIT License. All third-party models and libraries retain their original licenses. 
-
----
-
 ## Multi-Camera Mode
 
 Want wider coverage or fewer occlusions? Use `run_all.py` to spawn one detector process per camera and fuse them into a single set of world-space tracks.
