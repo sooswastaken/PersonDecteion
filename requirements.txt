@@ -1,0 +1,10 @@
+opencv-python>=4.8.1
+numpy>=1.23
+torch>=1.9
+# Torchvision for model utilities used by YOLOv5
+torchvision>=0.10
+# SORT tracker (optional)
+sort
+# Ultralytics' YOLOv5 via torch.hub does not need the package but users may install for convenience
+ultralytics>=8.0.0
+filterpy>=1.4 
